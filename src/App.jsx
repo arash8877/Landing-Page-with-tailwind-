@@ -1,13 +1,14 @@
-import Button from "./components/Button";
+import styles from "./style";
 
 const App = () => {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <div className="pt-[4.75rem] lg:pt-[5.25] overflow-hidden">
-        <Button className="mt-10" href="#login">something</Button>
+    <div className="bg-primary w-full overflow-hidden">
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+          <div className={`${styles.boxWidth}`}>
+            Navbar
+          </div>
       </div>
-    </>
+    </div>
   );
 };
 
